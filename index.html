@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>PinkRabbitʚ₍ᐢ. .ᐢ₎ɞ</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Gabriela&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Akaya+Kanadaka&family=Eczar:wght@400..800&family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&display=swap" rel="stylesheet">
+	<style>
+		*{
+			margin: 0; padding: 0; box-sizing: border-box;
+		}
+
+		/* Layout and Navbar */
+		body {
+			min-height: 100vh; 
+			display: flex;
+			flex-direction: column;
+			padding-bottom: 80px; 
+		}
+
+		.navbar{
+			background-color:#ffb3c6 ;
+			color:#ffe5ec;
+			padding: 10px;
+			text-align: center;
+		}
+
+		ul{
+			list-style: none;
+		}
+		li{
+			display: inline;
+			padding-left: 10px;
+			padding-right:10px ;
+		}
+		.navbar li a {
+			color: white;
+			font-weight: bold;
+			padding: 10px;
+			font-family: Gabriela;
+		}
+		.navbar li a:hover {
+			background-color: white;
+			color: hotpink;
+			text-decoration: none;
+		}
+
+		.Hero{
+			background-image: url(https://i.pinimg.com/474x/35/db/fe/35dbfe64a1d5b8d6d55c4724a149c5d6.jpg);
+			background-position: center;
+			width: 100%;
+			padding: 65px 0;
+			text-align: center;
+		}
+		.Hero h1 {
+			text-shadow: 2px 2px #fb6f92;
+			color: #ffc2d1;
+			font-size: 5em;
+			margin-top: 0;
+			font-family:Eczar;
+		}
+
+		.border1, .border2 {
+			background-color:#ffe5ec;
+			color:#fb6f92;
+			padding: 1px;
+			text-align: center;
+		}
+		.border2 { margin: 20px 0; }
+
+		/* Products Section */
+		.products img{
+			width: 410px;
+			height: 180px;
+			object-fit: cover;
+			display: inline;
+			margin: 4px;
+		}
+
+		.bestsellers {
+			display: flex;              
+			flex-wrap: wrap;            
+			justify-content: center;     
+			margin: 20px 0;
+		}
+
+		.card {
+			box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+			margin: 10px;
+			max-width: 200px;
+			text-align: center;
+			font-family: Eczar;
+			color: #fb6f92;
+		}
+
+		.price {
+			color: grey;
+			font-size: 22px;
+		}
+
+		/* Fieldset Styling */
+		fieldset {
+			border: 2px solid #ff8fab;
+			padding: 20px;
+			border-radius: 5px;
+			margin: 20px auto;
+			width: 90%; 
+			max-width: 500px;
+		}
+
+		.signup, .Login {
+			margin: 10px 0;
+		}
+
+		.button{
+			color: white;
+			font-weight: bold;
+			background-color:#ffb3c6;
+			padding: 10px 15px;
+			border: none;
+			cursor: pointer;
+			border-radius: 5px;
+		}
+
+		.button:hover{
+			background-color: white;
+			color: hotpink;
+			text-decoration: none;
+		}
+
+		/* Footer Styling */
+		.footer{
+			text-align: center;
+			background-color:#ffb3c6;
+			color: white;
+			width: 100%;
+			padding: 10px 0;
+			position: fixed;
+			bottom: 0;
+			left: 0;
+			font-family: Gabriela;
+			font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+ 	<!-- Navbar -->
+ 	<div class="navbar">
+ 		<ul>
+ 			<li>ʚ₍ᐢ. .ᐢ₎ɞ</li>
+ 			<li><a href="#products">Products</a></li>
+ 			<li><a href="#bestsellers">Shop</a></li>
+ 			<li><a href="#signup">Sign up</a></li>
+ 			<li><a href="#login">Login</a></li>
+ 			<li>ʚ₍ᐢ. .ᐢ₎ɞ</li>
+ 		</ul>
+ 	</div>
+
+ 	<!-- Hero -->
+ 	<div class="Hero">
+  		<h1>Bows!</h1> 		
+ 	</div>
+ 	<div class="border1"> 	ʚ₍ᐢ. .ᐢ₎ɞ	
+ 	</div>
+
+ 	<!-- Products -->
+ 	<div class="products" id="products">
+ 		<img src="https://i.pinimg.com/736x/f9/21/ea/f921eab3339ba7505a9c95d89222b073.jpg" alt="bow 1">
+ 		<img src="https://i.pinimg.com/736x/6b/72/bc/6b72bcb60aa39d644c6073ce003bbada.jpg" alt="bow 2">
+ 		<img src="https://i.pinimg.com/736x/81/34/e6/8134e604859d377b25ed2939c950f130.jpg" alt="bow 3">
+ 	</div>
+
+ 	<div class="border2"> !Best sellers!
+ 	</div>
+
+ 	<!-- Bestsellers Section -->
+	<div class="bestsellers" id="bestsellers">
+		<div class="card">
+		  <img src="https://i.pinimg.com/564x/30/17/9e/30179e9bf76ae58f8be72588cf2c7629.jpg" alt="bow 4" style="width:100%">
+		  <h1>Crimson Red Bow</h1>
+		  <p class="price">₱175.00</p>
+		</div>
+
+		<div class="card">
+		  <img src="https://i.pinimg.com/736x/7e/4f/c3/7e4fc31f35924b86fff1f9c24f198bcc.jpg" alt="bow 4" style="width:100%">
+		  <h1>Floral Black Bow</h1>
+		  <p class="price">₱200.00</p>
+		</div>
+
+		<div class="card">
+		  <img src="https://i.pinimg.com/736x/2e/8f/a7/2e8fa7646de36ff3246049fe79ee4aba.jpg" alt="bow 5"style="width:100%">
+		  <h1>White Floral Bow</h1>
+		  <p class="price">₱200.00</p>
+		</div>
+
+		<div class="card">
+		  <img src="https://i.pinimg.com/736x/d9/49/4a/d9494a692f3d2a6149a4c3e122f9aa24.jpg" alt="bow 6" style="width:100%">
+		  <h1>Pink Floral Bow</h1>
+		  <p class="price">₱175.00</p>
+		</div>
+
+		<div class="card">
+		  <img src="https://i.pinimg.com/736x/8b/ff/e8/8bffe82af5e57d66daee72d68bf02a34.jpg" alt="bow 7" style="width:100%">
+		  <h1>Lavander Floral Bow</h1>
+		  <p class="price">₱175.00</p>
+		</div>
+ 	</div>
+
+ 	<!-- sign up -->
+
+ 	<fieldset>
+	 	<div class="signup" id="signup">
+	 		<form>
+	 			<h2>Register</h2>
+	 			<label>Full Name:</label>
+	 			<input type="text" name="fname"> <br>
+	 			<label>Email:</label>
+	 			<input type="email" name="email"><br>
+	 			<label>Password</label>
+	 			<input type="password" name="Pword"><br>
+	 			<input type="submit" name="Sign up" class="button">
+	 		</form>
+		</div>
+	 	<!-- login -->
+	 	<div class="Login" id="login">
+	 		<form>
+	 			<h2>Login</h2>
+	 			<label>Full Name:</label>
+	 			<input type="text" name="fname"> <br>
+	 			<label>Password</label>
+	 			<input type="password" name="Pword"><br>
+	 			<input type="submit" name="Sign up" class="button">
+	 		</form>
+		</div>
+	</fieldset>
+
+
+	<div class="footer">
+		<p><small>Made by Khloe Myles S. Espina</small></p>
+	</div>
+</body>
+</html>
